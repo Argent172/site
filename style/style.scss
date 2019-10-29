@@ -1,0 +1,33 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@media (max-width: 1019px){
+@import "header320px";
+@import "top-menu320";
+@import "slider320";
+@import "team320";
+@import "footer320";
+}
+
+
+@media (min-width: 1020px){
+@import "header";
+@import "footer";
+@import "main";
+body
+{
+	background-image: url(back/background.jpg);
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+.wrapper
+{
+margin-top: 4vw;
+background: white;
+width: 60vw;
+}
+}
